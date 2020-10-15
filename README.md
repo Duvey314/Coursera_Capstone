@@ -19,17 +19,28 @@ The [dataset](https://www.seattle.gov/Documents/Departments/SDOT/GIS/Collisions_
 
 * SEVERITYCODE - The severity of the accident. This is our y variable and the value we are trying to predict. A 0 means that there was property damage only and a 1 means that there was some physical injury.
 * ST_COLCODE - The code of the collision. Used to describe the accident.
-* PEDCOUNT - Wheather or not there were pedestrians involved.
-* PERROWNOTGRNT - Whetheror not the pedestrians right of way was granted.
+* PEDCOUNT - Whether or not there were pedestrians involved.
+* PERROWNOTGRNT - Whether or not the pedestrians right of way was granted.
 * SPEEDING - Was the driver speeding?
 
-There are a number of data manipulations that had to be performed on the data to transform it into the correct format for the machine learning model. 
+There are a number of data manipulations that had to be performed on the data to transform it into the correct format for the machine learning model. The first was to convert the values in speeding and pedestrian right of way to binary values so that they could be analyzed by our model.
+
+The second piece was to drop our na values and empty values in the state collision code. These values cannot be used in our model.
+
+After this we binned our pedestrian values into a binary value since there was a large disparity between the number of accidents with pedestrians and without. 
+
+Lastly we had to change the datatype of our collision codes from an object to an integer value.
 
 ### Methodology
 
 
 
 ### Results
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ### Discussion
 
