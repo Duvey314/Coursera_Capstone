@@ -1,8 +1,12 @@
 # Coursera_Capstone
 Github repo for the data science professional capstone course.
-* [The Problem](#the-problem)
-* [The Data](#the-data)
-* [Methodology](#methodology)
+- [Coursera_Capstone](#coursera_capstone)
+    - [The Problem](#the-problem)
+    - [The Data](#the-data)
+    - [Methodology](#methodology)
+    - [Results](#results)
+    - [Discussion](#discussion)
+    - [Conclusion](#conclusion)
 
 ### The Problem
 
@@ -19,9 +23,11 @@ The [dataset](https://www.seattle.gov/Documents/Departments/SDOT/GIS/Collisions_
 * PERROWNOTGRNT - Whetheror not the pedestrians right of way was granted.
 * SPEEDING - Was the driver speeding?
 
-
+There are a number of data manipulations that had to be performed on the data to transform it into the correct format for the machine learning model. 
 
 ### Methodology
+
+
 
 ### Results
 
