@@ -1,6 +1,7 @@
 # Coursera_Capstone
 Github repo for the data science professional capstone course.
-- [Coursera_Capstone](#coursera_capstone)
+### Table of Contents
+
 - [The Problem](#the-problem)
 - [The Data](#the-data)
 - [Methodology](#methodology)
