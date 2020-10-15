@@ -35,15 +35,22 @@ Lastly we had to change the datatype of our collision codes from an object to an
 
 To get a better understand of how each variable effects the final we can create some simple visualizations.
 
+
+![Pedestrian Accidents](https://github.com/Duvey314/Coursera_Capstone/blob/master/Images/accidents_with_pedestrians.PNG)
+
+![Speeding Accidents](https://github.com/Duvey314/Coursera_Capstone/blob/master/Images/accidents_while_speeding.PNG)
+
+![Pedestrian RoW](https://github.com/Duvey314/Coursera_Capstone/blob/master/Images/accidents_given_row.PNG)
+
+
 Methodology section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why
 
 # Results
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 # Discussion
 
 Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
