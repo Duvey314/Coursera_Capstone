@@ -62,7 +62,8 @@ I
 
 For this problem we are worried about the Recall value of our model because we are more worried about predicting the injury to people.
 
-Both the Logistic Regression model and the Random Forrest model are accurate preditors of injury. However, our logistic regression model had a slightly higher recall value and is likely a better choice for the model.
+Both the Logistic Regression model and the Random Forest model are accurate preditors of injury. However, our logistic regression model had a slightly higher recall value and is likely a better choice for the model.
 
 # Conclusion
 
+The biggest
