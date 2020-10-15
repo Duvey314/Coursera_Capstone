@@ -11,12 +11,12 @@ Github repo for the data science professional capstone course.
 
 # The Problem
 
-With the growth of the suburbs in the last 50 years, more people have to drive to work everyday. This has lead to an increase in traffic and [pedestrian fatalities](https://www.ghsa.org/resources/news-releases/pedestrians20). This project applies machine learning to accidents involving pedestrians and predicts severity of injury to aid medics responding to the accident. 
+With the growth of the suburbs in the last 50 years, more people have to drive to work every day. This has led to an increase in traffic and [pedestrian fatalities](https://www.ghsa.org/resources/news-releases/pedestrians20). This project applies machine learning to accidents involving pedestrians and predicts severity of injury to aid medics responding to the accident. 
 
 
 # The Data
 
-The [dataset](https://www.seattle.gov/Documents/Departments/SDOT/GIS/Collisions_OD.pdf) contains real collision data from the Seattle Police Department (SPD) all the way back to 2004. It contains information on the severity of the collision which is what we will be trying to predict. For this oroject, we will be looking at the following columns to assess pedestrian injury severity.
+The [dataset](https://www.seattle.gov/Documents/Departments/SDOT/GIS/Collisions_OD.pdf) contains real collision data from the Seattle Police Department (SPD) all the way back to 2004. It contains information on the severity of the collision which is what we will be trying to predict. For this project, we will be looking at the following columns to assess pedestrian injury severity.
 
 * SEVERITYCODE - The severity of the accident. This is our y variable and the value we are trying to predict. A 0 means that there was property damage only and a 1 means that there was some physical injury.
 * ST_COLCODE - The code of the collision. Used to describe the accident.
@@ -30,7 +30,7 @@ The second piece was to drop our na values and empty values in the state collisi
 
 After this we binned our pedestrian values into a binary value since there was a large disparity between the number of accidents with pedestrians and without. 
 
-Lastly we had to change the datatype of our collision codes from an object to an integer value.
+Lastly, we had to change the datatype of our collision codes from an object to an integer value.
 
 # Methodology
 
@@ -47,7 +47,7 @@ Contrary to what I would have expected, it looks like speeding doesn't have as m
 
 ![Pedestrian RoW](https://github.com/Duvey314/Coursera_Capstone/blob/master/Images/accidents_given_row.PNG)
 
-At first this charts seems backwards but when you look at the columns, you can see that a 1 means that the pedestrian right of way was NOT granted. This means that accidents were more severe when the car did not respect the pedestrian right of way which is what we would expect
+At first this chart seems backwards but when you look at the columns, you can see that a 1 means that the pedestrian right of way was NOT granted. This means that accidents were more severe when the car did not respect the pedestrian right of way which is what we would expect
 
 I
 
@@ -62,10 +62,10 @@ I
 
 For this problem we are worried about the Recall value of our model because we are more worried about predicting the injury to people.
 
-Both the Logistic Regression model and the Random Forest model are accurate preditors of injury. However, our logistic regression model had a slightly higher recall value and is likely a better choice for the model.
+Both the Logistic Regression model and the Random Forest model are accurate predictors of injury. However, our logistic regression model had a slightly higher recall value and is likely a better choice for the model.
 
 # Conclusion
 
-The model works well for this data set but there are a number of factors to consider for future research. The first is loooking at other types of classifiers like neural nets or KNN. This might improve results but likely not drastically. I think the biggest improvement would come from a change in the dataset. There is a class imbalance in the data and addressing this imbalance could make the model more accurate.
+The model works well for this data set but there are a number of factors to consider for future research. The first is looking at other types of classifiers like neural nets or KNN. This might improve results but likely not drastically. I think the biggest improvement would come from a change in the dataset. There is a class imbalance in the data and addressing this imbalance could make the model more accurate.
 
-In addition, the accident severity is limited to a binary value. If there was data that had more detail about the severity of the accident we could proved better predictions for accident severity for pedestrians instead of property.
+In addition, the accident severity is limited to a binary value. If there was data that had more detail about the severity of the accident, we could provide better predictions for accident severity for pedestrians instead of property.
