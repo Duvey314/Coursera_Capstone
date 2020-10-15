@@ -1,19 +1,19 @@
 # Coursera_Capstone
 Github repo for the data science professional capstone course.
 - [Coursera_Capstone](#coursera_capstone)
-    - [The Problem](#the-problem)
-    - [The Data](#the-data)
-    - [Methodology](#methodology)
-    - [Results](#results)
-    - [Discussion](#discussion)
-    - [Conclusion](#conclusion)
+- [The Problem](#the-problem)
+- [The Data](#the-data)
+- [Methodology](#methodology)
+- [Results](#results)
+- [Discussion](#discussion)
+- [Conclusion](#conclusion)
 
-### The Problem
+# The Problem
 
 With the growth of the suburbs in the last 50 years, more people have to drive to work everyday. This has lead to an increase in traffic and [pedestrian fatalities](https://www.ghsa.org/resources/news-releases/pedestrians20). This project applies machine learning to accidents involving pedestrians and predicts severity of injury to aid medics responding to the accident. 
 
 
-### The Data
+# The Data
 
 The [dataset](https://www.seattle.gov/Documents/Departments/SDOT/GIS/Collisions_OD.pdf) contains real collision data from the Seattle Police Department (SPD) all the way back to 2004. It contains information on the severity of the collision which is what we will be trying to predict. For this oroject, we will be looking at the following columns to assess pedestrian injury severity.
 
@@ -31,17 +31,21 @@ After this we binned our pedestrian values into a binary value since there was a
 
 Lastly we had to change the datatype of our collision codes from an object to an integer value.
 
-### Methodology
+# Methodology
 
+To get a better understand of how each variable effects the final we can create some simple visualizations.
 
+Methodology section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why
 
-### Results
+# Results
 
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
-### Discussion
+# Discussion
 
-### Conclusion
+Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
+
+# Conclusion
