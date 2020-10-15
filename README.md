@@ -66,4 +66,6 @@ Both the Logistic Regression model and the Random Forest model are accurate pred
 
 # Conclusion
 
-The biggest
+The model works well for this data set but there are a number of factors to consider for future research. The first is loooking at other types of classifiers like neural nets or KNN. This might improve results but likely not drastically. I think the biggest improvement would come from a change in the dataset. There is a class imbalance in the data and addressing this imbalance could make the model more accurate.
+
+In addition, the accident severity is limited to a binary value. If there was data that had more detail about the severity of the accident we could proved better predictions for accident severity for pedestrians instead of property.
