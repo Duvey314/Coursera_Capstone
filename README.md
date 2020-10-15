@@ -38,21 +38,30 @@ To get a better understand of how each variable effects the final we can create 
 
 ![Pedestrian Accidents](https://github.com/Duvey314/Coursera_Capstone/blob/master/Images/accidents_with_pedestrians.PNG)
 
+We can see that there was more likely to be some physical injury when a pedestrian is involved in an accident. This make sense since the pedestrian does not have a seatbelt or airbag to protect them during a crash.
+
 ![Speeding Accidents](https://github.com/Duvey314/Coursera_Capstone/blob/master/Images/accidents_while_speeding.PNG)
+
+Contrary to what I would have expected, it looks like speeding doesn't have as much of an impact on accident severity.
 
 ![Pedestrian RoW](https://github.com/Duvey314/Coursera_Capstone/blob/master/Images/accidents_given_row.PNG)
 
+At first this charts seems backwards but when you look at the columns, you can see that a 1 means that the pedestrian right of way was NOT granted. This means that accidents were more severe when the car did not respect the pedestrian right of way which is what we would expect
 
-Methodology section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why
+I
 
 # Results
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| Algorithm               | **Jaccard**    | **f1-score**  | **Precision** | **Recall**  |
+| :---                    |     :---:      |     :---:     | :---:         | :---:       |
+| **Logistic Regression** | 0.73           | 0.85          |    0.78       | 0.75        |
+| **Random Forest**       | 0.75           | 0.85          |   0.78        | 0.74        |
+
 # Discussion
 
-Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
+For this problem we are worried about the Recall value of our model because we are more worried about predicting the injury to people.
+
+Both the Logistic Regression model and the Random Forrest model are accurate preditors of injury. However, our logistic regression model had a slightly higher recall value and is likely a better choice for the model.
 
 # Conclusion
+
